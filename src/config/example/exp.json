@@ -1,0 +1,29 @@
+{
+    "listener": {
+      "address": "0.0.0.0",
+      "port": 8080
+    },
+    "discord": {
+      "prefix": "discord",
+      "clientId": "xxx",
+      "clientSecret": "xxx",
+      "guild": 0,
+      "roles": {
+        "admin": "xxxxx"
+      }
+    },
+    "servers": {
+      "public": {
+        "path": "/public",
+        "permission": [
+          "everyone"
+        ]
+      },
+      "private": {
+        "path": "/private",
+        "permission": [
+          "admin"
+        ]
+      }
+    }
+  }
