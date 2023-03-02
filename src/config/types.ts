@@ -17,7 +17,7 @@ export type Config = {
     servers :any
 };
 
-type Server = {
+export type Server = {
     path :string
     permission :string[]
 };
