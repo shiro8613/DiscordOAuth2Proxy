@@ -1,7 +1,19 @@
 type Listener = {
     address :string
-    port: number
+    port :number
 };
+
+type Session = {
+    maxAge :number 
+    httpOnly :boolean
+    secure :boolean
+}
+
+type Redis = {
+    host :string
+    port :number
+    password :string
+}
 
 type Discord = {
     prefix :string
@@ -13,6 +25,8 @@ type Discord = {
 
 export type Config = {
     listener :Listener
+    session :Session,
+    redis :Redis
     discord :Discord
     servers :any
 };
