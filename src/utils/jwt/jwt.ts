@@ -10,7 +10,7 @@ export class Jwt {
         this.secret = Secret;
         this.jwtOptions = {
             algorithm: "RS256",
-            expiresIn: Time * 60
+            expiresIn: Time * 60 *  60 * 24
         }
 
     }
