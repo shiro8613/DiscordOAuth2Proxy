@@ -3,13 +3,13 @@ type Listener = {
     port :number
 };
 
-type Session = {
+export type Session = {
     maxAge :number 
     httpOnly :boolean
     secure :boolean
 }
 
-type Redis = {
+export type Redis = {
     host :string
     port :number
     password :string
