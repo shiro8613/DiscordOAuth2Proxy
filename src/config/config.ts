@@ -10,7 +10,7 @@ export function LoadConfig(path :string) :Config {
     return config;
 }
 
-export function ExportConfig(path :string) :void{
+export function ExportConfig(path :string) :void {
     const dumpYml = dump(expJson as Config);
     writeFileSync(path, dumpYml);
 }
