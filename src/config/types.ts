@@ -1,6 +1,6 @@
 type Listener = {
     address :string
-    port :Number
+    port: number
 };
 
 type Discord = {
@@ -22,6 +22,6 @@ export type Server = {
     permission :string[]
 };
 
-export type Servers = Map<String, Server>;
+export type Servers = Map<string, Server>;
 
-export type Roles = Map<String,Number>;
+export type Roles = Map<string,string>;
