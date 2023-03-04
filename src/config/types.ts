@@ -15,10 +15,11 @@ export type Redis = {
     password :string
 }
 
-type Discord = {
+export type Discord = {
     prefix :string
     clientId :string
     clientSecret :string
+    callbackUrl :string
     guild :string
     roles :any
 };

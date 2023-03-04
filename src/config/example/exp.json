@@ -17,6 +17,7 @@
     "prefix": "discord",
     "clientId": "xxx",
     "clientSecret": "xxx",
+    "callbackUrl": "http://xxxxx.com/{prefix}/after",
     "guild": 0,
     "roles": {
       "admin": "xxxxx"
