@@ -6,6 +6,7 @@ import { Session as SessionTypes } from "../config/types";
 
 declare module 'express-session' {
     interface SessionData {
+        userid? :string
         beforePath? :string
         jwtToken? :string
     }
